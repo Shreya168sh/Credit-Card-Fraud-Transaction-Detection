@@ -10,11 +10,27 @@
  6. As the dataset was imbalanced, so resample the data using SMOTE technique for better accuracy.
  7. Evaluating the trained model using evaluation metrics.
  
+ #### Required Packages
+Pandas -> import pandas as pd
+Numpy -> import numpy as np
+Matplotlib -> import matplotlib.pyplot as plt
+Seaborn -> import seaborn as sns
+Train Test Split -> from sklearn.model_selection import train_test_split
+Classification report and Accuracy score -> from sklearn.metrics import classification_report, accuracy_score  
+Precision and Recall -> from sklearn.metrics import precision_score, recall_score 
+F1 score and corelation co-efficient -> from sklearn.metrics import f1_score, matthews_corrcoef 
+Confusion Matrix -> from sklearn.metrics import confusion_matrix 
+Metrics -> import sklearn.metrics as metrics
+Random Forest Classifier -> from sklearn.ensemble import RandomForestClassifier 
+Logistic Regression -> from sklearn.linear_model import LogisticRegression
+DecisionTree -> from sklearn.tree import DecisionTreeClassifier 
+Smote -> from imblearn.over_sampling import SMOTE
+ 
  #### About the Data
  The dataset used in this problem is taken from Kaggle.
  The dataset consists of features as V1, V2, V3,....., V28 which are principal components obtained by PCA (Principal Component Analysis), the feature "Amount" which contains the total money being transacted and the feature "Class" which contains the labels of fraud or non-fraud trancactions in the form of "1" or"0" respectuvely.
  
  #### Data Modeling
- Model is trained before and after resampling of data using three classification algorithms namely Logistic Regression, Random Forest Classifier and Decision Tree Classifier. With these algorithms, the models are trained successfully and evaluate each of the model to find the most suitable model for this problem. 
+ Model is trained before and after resampling of data using three classification algorithms namely Logistic Regression, Random Forest Classifier and Decision Tree Classifier. With these algorithms, the models are trained successfully and each of the models are evaluated to find the most accurate model for this problem. 
  
  From this, I consider that Random Forest classifier is one of the most suitable model as it gives highest accuracy among all the classification algorithms.
