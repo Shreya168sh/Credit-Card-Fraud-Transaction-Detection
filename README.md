@@ -28,7 +28,9 @@
  
  #### About the Data
  The dataset used in this problem is taken from Kaggle.
- The dataset consists of features as V1, V2, V3,....., V28 which are principal components obtained by PCA (Principal Component Analysis), the feature "Amount" which contains the total money being transacted and the feature "Class" which contains the labels of fraud or non-fraud trancactions in the form of "1" or"0" respectuvely.
+ - Link to the dataset -> https://drive.google.com/drive/folders/12aygfD-w6-i8pFRLbUgwYr4XoUDEak3p?usp=sharing
+ - The dataset consists of features as V1, V2, V3,....., V28 which are principal components obtained by PCA (Principal Component Analysis), the feature "Amount" which
+ contains the total money being transacted and the feature "Class" which contains the labels of fraud or non-fraud trancactions in the form of "1" or"0" respectuvely.
  
  #### Data Modeling
  Model is trained before and after resampling of data using three classification algorithms namely Logistic Regression, Random Forest Classifier and Decision Tree Classifier. With these algorithms, the models are trained successfully and each of the models are evaluated to find the most accurate model for this problem. 
