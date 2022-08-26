@@ -11,20 +11,20 @@
  7. Evaluating the trained model using evaluation metrics.
  
  #### Required Packages
-Pandas -> import pandas as pd
-Numpy -> import numpy as np
-Matplotlib -> import matplotlib.pyplot as plt
-Seaborn -> import seaborn as sns
-Train Test Split -> from sklearn.model_selection import train_test_split
-Classification report and Accuracy score -> from sklearn.metrics import classification_report, accuracy_score  
-Precision and Recall -> from sklearn.metrics import precision_score, recall_score 
-F1 score and corelation co-efficient -> from sklearn.metrics import f1_score, matthews_corrcoef 
-Confusion Matrix -> from sklearn.metrics import confusion_matrix 
-Metrics -> import sklearn.metrics as metrics
-Random Forest Classifier -> from sklearn.ensemble import RandomForestClassifier 
-Logistic Regression -> from sklearn.linear_model import LogisticRegression
-DecisionTree -> from sklearn.tree import DecisionTreeClassifier 
-Smote -> from imblearn.over_sampling import SMOTE
+- Pandas -> import pandas as pd
+- Numpy -> import numpy as np
+- Matplotlib -> import matplotlib.pyplot as plt
+- Seaborn -> import seaborn as sns
+- Train Test Split -> from sklearn.model_selection import train_test_split
+- Classification report and Accuracy score -> from sklearn.metrics import classification_report, accuracy_score  
+- Precision and Recall -> from sklearn.metrics import precision_score, recall_score 
+- F1 score and corelation co-efficient -> from sklearn.metrics import f1_score, matthews_corrcoef 
+- Confusion Matrix -> from sklearn.metrics import confusion_matrix 
+- Metrics -> import sklearn.metrics as metrics
+- Random Forest Classifier -> from sklearn.ensemble import RandomForestClassifier 
+- Logistic Regression -> from sklearn.linear_model import LogisticRegression
+- DecisionTree -> from sklearn.tree import DecisionTreeClassifier 
+- Smote -> from imblearn.over_sampling import SMOTE
  
  #### About the Data
  The dataset used in this problem is taken from Kaggle.
